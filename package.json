@@ -1,0 +1,23 @@
+{
+  "name": "lib-link-node",
+  "version": "1.0.0",
+  "description": "Uma biblioteca para verificar se o link é válido em um Markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "keywords": ["markdown", "link"],
+  "bugs": {
+    "url": ""
+  }
+  "author": "Cristiano Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}
